@@ -11,6 +11,8 @@ body {
 
 h1 {
     display: flex;
+    font-weight: 200;
+    padding: 40px;
     align-items: center;
     justify-content: center;
 }
@@ -55,15 +57,16 @@ option {
     background-color: #F5F5FA;
 }
 
-/* ... (existing styles) ... */
+input:focus {
+    background-color: #ededf0;
+}
 
-.dropdown {
+.select-container option {
     outline: none;
     border: none;
     border-radius: 5px;
     padding: 10px;
     background-color: #F5F5FA;
-    /* Apply other common styles here */
 }
 
 
@@ -105,5 +108,5 @@ option {
     border-radius: 5px;
     padding: 10px;
     color: white;
-    background-color: #8bd3f5;
+    background-color: #5fc7f7;
 }
